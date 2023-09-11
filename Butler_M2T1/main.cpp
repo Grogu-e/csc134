@@ -32,7 +32,7 @@ int main()
     //then add the tax in $ to get the total $
     cout << "-------Customer Receipt--------"<< endl;
     cout << "Price:$"<< meal_price << endl;
-    cout << "Tax:$" << tax_percent << endl;
+    cout << "Tax is:$" << tax_percent << endl;
 
 
     cout << fixed << setprecision(2);
