@@ -27,7 +27,7 @@ It should include:
 int main()
 {
     //#set varables
-    double meal_price = 0;
+    double menu_price = 0;
     double tax_percent = 0.07;// for Cumberland county. Its write as 0.07% perecent
     double item_price;
     int num_items;
@@ -40,39 +40,44 @@ int main()
 
     //1- greet user
     cout << "Welcome to T-Rex Grill's" << endl;
-    #set varables
+    //set varables
     //Todo: Ask the user the meal price
 
 
 
     //2- Ask the user for thier order
     cout << "What would you like today? " << endl;
-    cin >> item_name;
+    cin.ignore();
+    getline(cin,item_name);
 
     cout <<  "What's the price on that item? " << endl;
     cin >> item_price;
 
     cout << "What the price on that item? " << endl;
     cin >> num_items;
+    //you can put "(s)" or not
+    cout << "How many " << item_name << "(s) do you want? " << endl;
+    cin >> num_items;
+
 
 
     //3- Calculate the nemu price
-    nemu_price = num_items * item_price;
+    menu_price = num_items * item_price;
 
     //Todo: Ask the user the meal price
 
 
     //4 - Print the receipt
     cout << "-------Customer Receipt--------"<< endl;
-    cout << "Price:$"<< meal_price << endl;
+    cout << "Price:$"<< menu_price << endl;
     cout << "Tax is:$" << tax_percent << endl;
 
 
     cout << fixed << setprecision(2);
 
     //calculate your total
-    tax_dollars= meal_price*tax_percent;
-    total_price= meal_price + tax_dollars;
+    tax_dollars= menu_price*tax_percent; //in dollars
+    total_price= menu_price + tax_dollars;// price including tax
 
     //print receipt
     cout <<"--------------------------------"<< endl;
