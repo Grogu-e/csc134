@@ -1,0 +1,131 @@
+Notes: "Brewed Bewitchmen" Mystery Adventure
+A C++, or Python program that has 
+
+Pitch: "Brewed Bewitchment" mystery adventure game
+
+---
+
+**Title**: Brewed Bewitchment
+
+**Elevator Pitch**:
+
+"Step into the enchanted world of 'Brewed Bewitchment,' a captivating mystery adventure game. Imagine a haunted Starbucks, where the air is thick with the aroma of fall-themed coffee, and the atmosphere is eerie yet inviting. As you enter, you encounter a welcoming surprise: a friendly ghost barista, who serves delicious, otherworldly brews with a warm smile.
+
+In 'Brewed Bewitchment,' you play as an intrepid investigator, drawn by the allure of this haunted cafe. Your task? Uncover the secrets that shroud this spectral Starbucks. As you explore the dimly lit corners and interact with enigmatic characters, you'll decipher cryptic clues, solve intricate puzzles, and unveil a story that's steeped in mystique.
+
+The stakes are high, and the choices you make influence the outcome. Will you unravel the mystery behind the ghostly barista? Or will the secrets remain locked away in the shadows? 'Brewed Bewitchment' promises a rich narrative, immersive gameplay, and an enchanting atmosphere that captures the essence of fall and Halloween. Are you ready to embark on an unforgettable adventure in a cafe unlike any other?
+
+Prepare to sip, savor, and sleuth your way through 'Brewed Bewitchment,' where every cup holds the key to an enchanting tale. Welcome to the spookiest Starbucks in town, where mysteries brew as beautifully as the fall-inspired drinks."
+
+---
+
+This elevator pitch introduces the key elements of your game, such as the spooky Starbucks setting, the friendly ghost barista, the mystery adventure, and the interactive and immersive experience players can expect.
+
+
+
+
+
+
+
+
+
+
+Start
+|
+|--(1) Initialize "Brewed Bewitchment" Mystery Adventure
+|   |
+|   |-- Load Assets
+|   |
+|   |-- Create Main Menu
+|   |
+|   |-- Display Main Menu
+|   |
+|   |-- User Input (Start Game / Exit)
+|       |
+|       |----[Start Game]----> Game Intro
+|       |
+|       |----[Exit]----> End Game
+|
+|-- Game Intro
+|   |
+|   |-- Set the Spooky Atmosphere
+|   |
+|   |-- Present the Mystery:
+|   |   |
+|   |   |-- Introduce the Haunted Starbucks
+|   |   |
+|   |   |-- Reveal the Friendly Ghost Barista
+|   |
+|   |-- User Input (Begin Investigation / Exit)
+|       |
+|       |----[Begin Investigation]----> Game Loop
+|       |
+|       |----[Exit]----> End Game
+|
+|-- Game Loop
+|   |
+|   |-- Update Game State
+|   |
+|   |-- Render the Haunted Starbucks
+|   |
+|   |-- Handle User Input (Explore, Interact, Inventory)
+|   |
+|   |-- Investigate the Starbucks:
+|   |   |
+|   |   |-- Search for Clues
+|   |   |
+|   |   |-- Talk to Ghost Barista
+|   |   |
+|   |   |-- Solve Puzzles
+|   |
+|   |-- Check for Progression:
+|       |
+|       |----[Uncover Mystery]----> Game Victory
+|       |
+|       |----[Give Up]----> Game Over
+|
+|-- Game Victory
+|   |
+|   |-- Reveal the Mystery's Resolution
+|   |
+|   |-- Show the Friendly Ghost's Gratitude
+|   |
+|   |-- User Input (Restart / Exit)
+|       |
+|       |----[Restart]----> Initialize "Brewed Bewitchment"
+|       |
+|       |----[Exit]----> End Game
+|
+|-- Game Over
+|   |
+|   |-- Explain the Mystery Remains Unsolved
+|   |
+|   |-- User Input (Restart / Exit)
+|       |
+|       |----[Restart]----> Initialize "Brewed Bewitchment"
+|       |
+|       |----[Exit]----> End Game
+|
+|-- End Game
+|   |
+|   |-- Unload Assets
+|   |
+|   |-- Close the Game
+|
+End
+
+
+
+
+
+Art :
+Promt use on Bing AI generater 
+
+Ghost Barista-
+promt: "Generate an image of a spectral barista haunting the counter at 'Brewed Bewitchment.' The ghostly figure should be ethereal and bear an enigmatic smile while crafting an enticing fall-themed coffee concoction. Envelop the barista in decor that's both eerie and oddly comforting, and ensure that the lighting evokes a spooky yet strangely inviting ambiance. The background should hint at the Starbucks' arcane history, maintaining an aura of warmth beneath its ghostly facade."
+
+Vamp Costumer:
+promt: "Generate an image of a mysterious vampire customer in 'Brewed Bewitchment.' The vampire should project an aura of elegance and intrigue, with distinctive features like pale skin, sharp fangs, and captivating crimson eyes. Their attire should be stylish and slightly gothic, blending seamlessly with the cafe's eerie yet inviting ambiance. The background should evoke the enchanting atmosphere of the cafe, subtly hinting at its supernatural elements.
+
+Band :
+Create an image of a music band performing on a stage inside the 'Brewed Bewitchment' cafe, resembling a Starbucks environment. The cafe should have cozy seating, coffee cups, and fall-themed decor. The band should consist of supernatural members, like a ghostly guitarist, a vampire keyboardist, a werewolf drummer, and a witchy lead vocalist. The stage should be well-lit, and the audience should be seated at tables, sipping fall-themed coffee drinks and enjoying the captivati
